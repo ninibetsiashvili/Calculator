@@ -1,0 +1,215 @@
+:root
+{
+    --main-color: #3E503C;
+    --second-color: #7F886A;
+    --third-color: #F3ECD8;
+    --forth-color: #F3ECD8;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--third-color) !important;
+}
+
+.main-container
+{
+    width: 300px;
+}
+
+.my-btn
+{
+    height: 70px;
+    width: 70px;
+    float: left;
+    display: block;
+    border: 0;
+    margin: 5px 5px 0 0;
+    border-radius: 10px;
+    background-color: var(--main-color);
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--forth-color);
+}
+
+.bigger-button
+{
+    width: 145px;
+}
+
+.my-btn:focus 
+{
+    outline: none;
+    box-shadow: none;
+    background-color: #2f3d2e;
+}
+
+.my-btn-green:focus
+{
+    background-color: #6a7258;
+}
+
+.my-btn-green
+{
+    background-color: var(--second-color);
+}
+
+
+
+.result-container
+{
+    width: 295px;
+    border: solid 3px var(--second-color);
+    border-radius: 10px;
+    height: 70px;
+    text-align: end;
+    padding: 0 20px;
+    color: var(--second-color);
+    overflow: hidden;
+}
+
+.result-container p
+{
+    font-size: 40px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{
+    .main-container
+    {
+        width: 260px;
+    }
+
+    .my-btn
+    {
+        height: 60px;
+        width: 60px;
+        font-size: 25px;
+    }
+
+    .result-container
+    {
+        width: 255px;
+        height: 60px;
+    }
+
+    .bigger-button
+    {
+        width: 125px;
+    }
+
+    .result-container p
+    {
+        font-size: 35px;
+    }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+{
+    .main-container
+    {
+        width: 580px;
+    }
+
+    .my-btn
+    {
+        height: 140px;
+        width: 140px;
+        font-size: 40px;
+        border-radius: 15px;
+    }
+
+    .result-container
+    {
+        width: 575px;
+        height: 140px;
+    }
+
+    .bigger-button
+    {
+        width: 285px;
+    }
+
+    .result-container p
+    {
+        font-size: 60px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+    .main-container
+    {
+        width: 560px;
+    }
+
+    .my-btn
+    {
+        height: 135px;
+        width: 135px;
+        font-size: 60px;
+        border-radius: 15px;
+    }
+
+    .result-container
+    {
+        width: 555px;
+        height: 135px;
+    }
+
+    .bigger-button
+    {
+        width: 275px;
+    }
+
+    .result-container p
+    {
+        font-size: 80px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) 
+{
+    .main-container
+    {
+        width: 360px;
+    }
+
+    .my-btn
+    {
+        height: 85px;
+        width: 85px;
+        font-size: 40px;
+        border-radius: 15px;
+    }
+
+    .result-container
+    {
+        width: 355px;
+        height: 85px;
+    }
+
+    .bigger-button
+    {
+        width: 175px;
+    }
+
+    .result-container p
+    {
+        font-size: 50px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+{
+    
+}
